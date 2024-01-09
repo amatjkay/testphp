@@ -10,7 +10,15 @@
 <body>
     <?php
 
-    echo "HI MIR"
+    function consoleLog($argc)
+    {
+        echo "$argc<br>";
+    }
+
+    consoleLog(123);
+    consoleLog("text");
+    consoleLog(54.23);
+    consoleLog(true);
 
     ?>
 </body>
