@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP learning</title>
-</head>
-
-<body>
 <?php
-
-
+$title = 'Главная страница';
+include_once './blocks/header.php';
 
 ?>
-</body>
 
-</html>
+<h1>Главная страница</h1>
+
+<?php
+
+include_once './blocks/footer.php';
+
+?>
